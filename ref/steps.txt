@@ -3,3 +3,9 @@ https://www.youtube.com/watch?v=f5npM1PvoyE
 truffle init
 npm init -y
 npm i @openzeppelin/contracts
+
+truffle develop
+migrate --reset
+
+npm install koa @koa/router @koa/cors ethers mongoose
+
